@@ -44,7 +44,6 @@ int main()
 	/* Add network programming using Winsock here */
 
 	/* then call WSACleanup when done using the Winsock dll */
-	WSACleanup();
 	///////////////////////////////////////////////////////////////////////
 	SOCKET sockCli;
 	sockCli = socket(AF_INET, SOCK_STREAM, 0);
